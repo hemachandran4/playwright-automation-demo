@@ -1,0 +1,16 @@
+{
+  "name": "playwright-automation-demo",
+  "version": "1.0.0",
+  "description": "Workflows automated via Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "typescript": "^5.3.0"
+  }
+}
